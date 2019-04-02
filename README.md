@@ -34,7 +34,7 @@ Build the Source
  
  ### What does archetype contain?
  
- - Archetype is generally used to create maven projects with the predefined tempalte. 
+ - Archetype is generally used to create maven projects with the predefined template. 
  - Archetype defines what are all the elements should the generated project contain
  
  NULS maven archetype generates the smart contract project with following archetecture:
