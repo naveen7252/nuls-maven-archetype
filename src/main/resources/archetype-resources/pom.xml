@@ -12,6 +12,7 @@
         <java.version>8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
+        <nuls-sc.maven.plugin.version>1.0.0</nuls-sc.maven.plugin.version>
         <sender.address></sender.address>
         <sender.password></sender.password>
         <sender.privateKey></sender.privateKey>
@@ -36,7 +37,7 @@
             <plugin>
                 <groupId>io.nuls</groupId>
                 <artifactId>nuls-sc-maven-plugin</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>${nuls-sc.maven.plugin.version}</version>
                 <configuration>
                     <sender>${sender.address}</sender>
                     <password>${sender.password}</password>
