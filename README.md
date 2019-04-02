@@ -30,4 +30,21 @@ Build the Source
  
  1. Maven command line option:
  
-      
+ 2. Using IntelliJ IDE
+ 
+ ### What does archetype contain?
+ 
+ - Archetype is generally used to create maven projects with the predefined tempalte. 
+ - Archetype defines what are all the elements should the generated project contain
+ 
+ NULS maven archetype generates the smart contract project with following archetecture:
+ 
+ - It generates smart contract project as maven project
+ - It generates project with sample contract class and all the required NULS smart contract dependencies are automataically added to the project
+ - It generates test packeges and adds required dependencies automatically
+ - It adds [NULS smart contract maven plugin](https://github.com/naveen7252/nuls-smart-contract-maven-plugin) to the project. So that cotract deployment & execution operations are simplified.
+ - Build the generated project with simple maven commands - "mvn clean install" will deploy the contract to NULS blockchain.
+ - No need to upload the jar or generate and copy the contract hex code to NULS wallet for the contract deployment.
+ - Generated project comes with some useful library classes(most frequently used) which can be used in smart contract development.
+ 
+ 
