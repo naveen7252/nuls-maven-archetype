@@ -35,7 +35,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>io.nuls</groupId>
+                <groupId>io.nuls.ccc</groupId>
                 <artifactId>nuls-sc-maven-plugin</artifactId>
                 <version>${nuls-sc.maven.plugin.version}</version>
                 <configuration>
